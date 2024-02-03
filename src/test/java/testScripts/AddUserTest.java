@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
 
 import genericLibraries_OR_Utilities.BaseClass;
 import genericLibraries_OR_Utilities.IConstantPath;
-
+//This test is used to add user to the application
 public class AddUserTest extends BaseClass{
 	SoftAssert soft=new SoftAssert();
 	@Test
