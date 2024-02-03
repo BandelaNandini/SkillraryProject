@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
 
 import genericLibraries_OR_Utilities.BaseClass;
 import genericLibraries_OR_Utilities.IConstantPath;
-
+//This class verifies whether the user is able to add course
 public class AddCourseTest extends BaseClass{
 	SoftAssert soft=new SoftAssert();
 	@Test
