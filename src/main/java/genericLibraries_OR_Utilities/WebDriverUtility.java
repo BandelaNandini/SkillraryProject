@@ -113,7 +113,7 @@ public class WebDriverUtility {
 	 */
 	public void mouseHoverToElement(WebElement element) {
 		Actions action = new Actions(driver);
-		action.contextClick(element).perform();
+		action.moveToElement(element).perform();
 	}
 
 	/**
